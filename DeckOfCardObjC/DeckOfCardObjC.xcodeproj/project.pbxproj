@@ -15,6 +15,7 @@
 		195D696A234B9D150006EDA4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 195D6969234B9D150006EDA4 /* main.m */; };
 		195D6972234B9EB40006EDA4 /* TRWCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 195D6971234B9EB40006EDA4 /* TRWCard.m */; };
 		195D6979234BA58E0006EDA4 /* TRWCardController.m in Sources */ = {isa = PBXBuildFile; fileRef = 195D6978234BA58E0006EDA4 /* TRWCardController.m */; };
+		195D697D234BB8B00006EDA4 /* TRWCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 195D697C234BB8B00006EDA4 /* TRWCardViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,8 @@
 		195D6971234B9EB40006EDA4 /* TRWCard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TRWCard.m; sourceTree = "<group>"; };
 		195D6977234BA58E0006EDA4 /* TRWCardController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TRWCardController.h; sourceTree = "<group>"; };
 		195D6978234BA58E0006EDA4 /* TRWCardController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TRWCardController.m; sourceTree = "<group>"; };
+		195D697B234BB8B00006EDA4 /* TRWCardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TRWCardViewController.h; sourceTree = "<group>"; };
+		195D697C234BB8B00006EDA4 /* TRWCardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TRWCardViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 		195D697A234BA5930006EDA4 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				195D697B234BB8B00006EDA4 /* TRWCardViewController.h */,
+				195D697C234BB8B00006EDA4 /* TRWCardViewController.m */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -192,6 +197,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				195D697D234BB8B00006EDA4 /* TRWCardViewController.m in Sources */,
 				195D6959234B9D140006EDA4 /* AppDelegate.m in Sources */,
 				195D6972234B9EB40006EDA4 /* TRWCard.m in Sources */,
 				195D696A234B9D150006EDA4 /* main.m in Sources */,
